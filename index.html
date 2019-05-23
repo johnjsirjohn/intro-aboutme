@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>John J SirJohn Website</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" type="image/icon" href="images/favicon.ico" />
+
+<body>
+  <header>
+    <a href="index.html" class="mylogo"><img src="images/logo150x84px.png" /></a>
+    <div id="myNav" class="overlay">
+      <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <div class="overlay-content">
+        <a href="#education" onclick="closeNav()">Education</a>
+        <a href="#work" onclick="closeNav()">Work</a>
+        <a href="#hobbies" onclick="closeNav()">Hobbies</a>
+        <a href="#contactme" onclick="closeNav()">Contact</a>
+      </div>
+    </div>
+    <span class="mythreebar" onclick="openNav()">&#9776; MENU</span>
+  </header>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h2 class="myherotext">Hi, I am Ionu&#539; S&#238;rbu</h2>
+      <h4 class="mypartext">aka John J SirJohn</h4>
+    </div>
+  </div>
+
+  <p><q>Machines do not belong to us! We belong to them!</q></p>
+  <div class="fullcontent">
+    <div class="twocolcontent">
+      <div class="firstcolcontent">
+        <img class="myprofilepic" src="images/John_profile_picture.jpg" />
+        <div class="middle">
+          <div class="textonimg">John J SirJohn</div>
+        </div>
+      </div>
+      <div class="secondcolcontent">
+        <p class="parsecondcolcontent">
+          I was born in <a href="https://en.wikipedia.org/wiki/Craiova" target="_blank">Craiova</a>, the 6th largest
+          city of Romania and the capital of Dolj County. Craiova is situated in the south-west of Romania, 225 km west
+          from the capital Bucharest.
+          <br />
+          My birth date (3rd of October, 1984) was a special day for the
+          people of Craiova and also of Romania: the local football team
+          <span>CS Universitatea Craiova</span> <a
+            href="https://www.worldfootball.net/report/europa-league-1984-1985-1-runde-universitatea-craiova-real-betis/"
+            target="_blank"> won 1-0 and 5-3 after the penalties</a> from the spanish force Real Betis! Craiova football
+          team qualified for the second round of
+          <a href="https://en.wikipedia.org/wiki/1984%E2%80%9385_UEFA_Cup" target="_blank">UEFA CUP (season
+            1984-1985)</a>. So yes, I like football and I am a fan of
+          <a href="https://en.wikipedia.org/wiki/CS_Universitatea_Craiova#1984_UEFA_Euro" target="_blank">Universitatea
+            Craiova</a> football team.<br />
+          I had been living in Craiova for almost 28 years and 5 years ago I moved to The Netherlands.<br />
+          Romania is a very beautiful country with long fields, hills, mountains and sea. If you would like to visit it,
+          <a href="http://placesinfotos.tk/romania/" target="_blank">here</a> you have some pictures from different
+          places. I have made <a href="http://placesinfotos.tk/" target="_blank">PlacesInFotos</a>
+          website a while ago for practicing and learning about web.<br />
+          I like to travel and discover new places and to meet new people from
+          different cultures.
+        </p>
+      </div>
+    </div>
+    <!--End of twocolcontent div-->
+  </div>
+  <!--End of fullcontent div-->
+  <div class="imgpara"></div>
+  <div class="fullcontent">
+    <div class="mycollaps collapsed" id="education">
+      <button class="collapsible">Education</button>
+      <div class="content">
+        <ul>
+          <li> Highschool:</li>
+          <p><a href="http://www.mateibasarabcraiova.ro/" target="_blank">'Matei Basarab' Highschool</a> - Craiova (1999
+            - 2003)</p>
+          <li> University:</li>
+          <p>
+            <a href="http://feaa.ucv.ro/one/index.php?lang=en" target="_blank">Faculty of Economics and Business
+              Administration</a> - University of Craiova (2003 - 2007). I graduated with an economist licensed
+            diploma in 2007, the same year when <a
+              href="https://europa.eu/european-union/about-eu/countries/member-countries/romania_en"
+              target="_blank">Romania joined European Union</a>.
+          </p>
+          <p> <a href="https://cis01.central.ucv.ro/DPPD/p4.htm" target="_blank">Department of Teacher Training</a> -
+            University of Craiova (2003 - 2007). At some point, I wanted to
+            become a teacher, but my career took a different path.
+          </p>
+
+        </ul>
+
+      </div>
+      <!--End of content div-->
+    </div>
+    <!--End of mycollaps div-->
+    <div class="mycollaps" id="work">
+      <button class="collapsible">Work</button>
+      <div class="content">
+        <p>
+          I had different jobs (such as loan broker, credit advisor, customer service representative,
+          trade representative, call-center agent) in different sectors (such as
+          banking, IT, sales, logistics, call-center and desktop-research sector).
+          <br />
+          You can find out more about my Working Experience on my <a href="https://www.linkedin.com/in/isirbu"
+            target="_blank">LinkedIn</a> profile.
+        </p>
+      </div>
+      <!--End of content div-->
+    </div>
+    <!--End of mycollaps div-->
+    <div class="mycollaps" id="hobbies">
+      <button class="collapsible">Hobbies</button>
+      <div class="content" id="content">
+
+        <ul>
+          <li> Travelling the world</li>
+          <p>So far, I have been travelling only in Europe, but I hope to visit other continents soon too.</p>
+          <li> Watching and playing tennis and football</li>
+          <p>I like the way Novak Đoković plays tennis and I like to watch UEFA Champions League aside to La Liga and
+            Premier League.</p>
+          <li> Developing and maintaining websites.</li>
+          <p>You can find <a href="http://www.ciroweb.ga/" target="_blank">here</a> the websites that I
+            built/maintained so far.</p>
+          <li> Listening music</li>
+          <p>I prefer rock music and the 80's and 90's oldies but goldies songs</p>
+          <li> Reading books:</li>
+          <p>Programming books</p>
+          <p>Prose (especially Dan Brown's books).</p>
+        </ul>
+
+
+      </div>
+      <!--End of content div-->
+    </div>
+    <!--End of mycollaps div-->
+  </div>
+  <!--End of fullcontent div-->
+
+  <div class="minime" id="contactme">
+    <p id="contactme">Would you like to contact me and find out more about me?<br /> Then just click the button
+      bellow:<br /><br />
+      <button class="btn contact"><a href="mailto:ionut.sirbu@hotmail.com">Contact Me</a></button></p>
+  </div>
+  <!--End of contactme div-->
+
+  <footer>
+    <p>&copy; John J SirJohn <em id="currentYear"></em></p>
+    <p class="parfooter">In the memory of my father - <a href="images/Constantin Sirbu.png">Constantin S&#238;rbu</a>
+    </p>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
